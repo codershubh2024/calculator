@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="display" readonly>
+        <div>
+            <button id="clear" class="btn operator ac" onclick="clear()">AC</button>
+            <button  id="del"class="btn operator del" onclick="del()">DEL</button>
+            
+            <button id="devide" class="btn operator" onclick="devide()">/</button>
+        </div>
+        <div>
+            <button id="seven" class="btn" onclick="seven()">7</button>
+            <button id="eight" class="btn" onclick="eight()">8</button>
+            <button id="nine" class="btn" onclick="nine()">9</button>
+            <button id="mul" class="btn operator" onclick="mul()">X</button>
+        </div>
+        <div>
+            <button id="four" class="btn" onclick="four()">4</button>
+            <button id="five" class="btn" onclick="five()">5</button>
+            <button id="six" class="btn" onclick="six()">6</button>
+            <button id="sub" class="btn operator" onclick="sub()">-</button>
+        </div>
+        <div>
+            <button id="one" class="btn" onclick="one()">1</button>
+            <button id="two" class="btn" onclick="two()">2</button>
+            <button id="three" class="btn" onclick="three()">3</button>
+            <button id="plus" class="btn operator" onclick="plus()">+</button>
+        </div>
+        <div>
+            <button id="dzero" class="btn" onclick="dzero()">00</button>
+            <button id="zero" class="btn" onclick="zero()">0</button>
+            <button  id="dot"class="btn" onclick="dot()">.</button>
+            <button id="equal" class="btn equal" onclick="equal()">=</button>
+        </div>
+    </div>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
